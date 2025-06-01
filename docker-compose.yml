@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  ttsapp:
+    build: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
