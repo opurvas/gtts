@@ -15,11 +15,8 @@ This project provides a simple REST API to convert input text (in various langua
 ---
 
 ## 📦 Requirements
-
 Install the required Python packages using:
 
-```bash
+```python
 pip install -r requirements.txt
 
-
-## ▶️ Running the API
